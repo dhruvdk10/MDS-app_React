@@ -266,6 +266,12 @@ img {
   outline: none;
 }
 
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 .nav-link {
   color: #000000 !important;
   font-weight: 500;
