@@ -7,7 +7,6 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 const Navbar = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
-  // Update window width on resize
   useEffect(() => {
     const handleResize = () => setWindowWidth(window.innerWidth);
     window.addEventListener("resize", handleResize);
@@ -75,9 +74,9 @@ const Navbar = () => {
             </li>
             <li className="nav-item dropdown">
               <NavLink
-                to="/Projects" // base route for projects
+                to="/Projects"
                 className={({ isActive }) =>
-                  (isActive || window.location.pathname.startsWith("/Projects")) && windowWidth > 768
+                  (isActive || window.location.hash.includes("/Projects")) && windowWidth > 768
                     ? "nav-link dropdown-toggle active mx-1"
                     : "nav-link dropdown-toggle mx-1"
                 }

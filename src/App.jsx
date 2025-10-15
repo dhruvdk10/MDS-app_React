@@ -4,13 +4,12 @@ import Footer from "./Components/Footer";
 import "./index.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import AboutUs from "./Pages/AboutUs";
 import Services from "./Pages/Services";
 import ContactUs from "./Pages/ContactUs";
 import Projects from "./Pages/Projects";
-
 
 const App = () => {
   React.useEffect(() => {
@@ -18,7 +17,7 @@ const App = () => {
   }, []);
 
   return (
-    <BrowserRouter basename="/MDS-app_React/">
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -26,12 +25,12 @@ const App = () => {
         <Route path="/Services" element={<Services />} />
         <Route path="/ContactUs" element={<ContactUs />} />
         <Route path="/Projects" element={<Projects />} />
-        {/* <Route path="*" element={<PageNotFound />} /> */}
+        <Route path="/Projects/Residential" element={<Projects type="Residential" />} />
+        <Route path="/Projects/Commercial" element={<Projects type="Commercial" />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
-}
+};
 
 export default App;
-
