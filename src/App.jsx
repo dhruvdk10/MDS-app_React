@@ -25,8 +25,6 @@ const App = () => {
         <Route path="/Services" element={<Services />} />
         <Route path="/ContactUs" element={<ContactUs />} />
         <Route path="/Projects" element={<Projects />} />
-        <Route path="/Projects/Residential" element={<Residential />} />
-        <Route path="/Projects/Commercial" element={<Commercial />} />
       </Routes>
       <Footer />
     </HashRouter>
