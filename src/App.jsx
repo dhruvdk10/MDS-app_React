@@ -9,6 +9,7 @@ import Home from "./Pages/Home";
 import AboutUs from "./Pages/AboutUs";
 import Services from "./Pages/Services";
 import ContactUs from "./Pages/ContactUs";
+import Projects from "./Pages/Projects";
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/Services" element={<Services />} />
         <Route path="/ContactUs" element={<ContactUs />} />
+        <Route path="/Projects" element={<Projects />} />
         {/* <Route path="*" element={<PageNotFound />} /> */}
       </Routes>
       <Footer />
