@@ -17,17 +17,17 @@ const App = () => {
   }, []);
 
   return (
-      <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/AboutUs" element={<AboutUs />} />
-          <Route path="/Services" element={<Services />} />
-          <Route path="/ContactUs" element={<ContactUs />} />
-          {/* <Route path="*" element={<PageNotFound />} /> */}
-        </Routes>
-        <Footer />
-      </BrowserRouter>
+    <BrowserRouter basename="/MDS-app_React/">
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/AboutUs" element={<AboutUs />} />
+        <Route path="/Services" element={<Services />} />
+        <Route path="/ContactUs" element={<ContactUs />} />
+        {/* <Route path="*" element={<PageNotFound />} /> */}
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
