@@ -9,7 +9,7 @@ import Home from "./Pages/Home";
 import AboutUs from "./Pages/AboutUs";
 import Services from "./Pages/Services";
 import ContactUs from "./Pages/ContactUs";
-import Projects from "./Pages/Projects"; // if you have a base projects page
+import Projects from "./Pages/Projects"; 
 
 const App = () => {
   useEffect(() => {
