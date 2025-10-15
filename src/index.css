@@ -592,6 +592,151 @@ select:focus {
   cursor: pointer;
 }
 
+/* Responsive Design */
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .carousel-item {
+    height: 800px;
+  }
+
+  .carousel-item img {
+    height: 100%;
+    /* Fill the carousel-item height */
+    width: 100%;
+    /* Ensure full width */
+    object-fit: cover;
+    /* Maintain cover aspect ratio */
+    display: block;
+    /* Remove inline-block gaps */
+  }
+
+  .profile-details {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .section-title {
+    font-size: 38px;
+  }
+
+  .service-icon {
+    width: 100%;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon-details {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .profile-details {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .section-title {
+    font-size: 38px;
+  }
+
+  .contact-info p {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-right: 30px;
+  }
+
+  .contact-info i {
+    margin-right: 10px;
+    color: #555;
+    min-width: 25px;
+    text-align: center;
+  }
+
+  .nav-link:hover {
+    border: none !important;
+  }
+
+  .quote-text {
+    margin: 80px 20px;
+    font-size: 19px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .carousel-item {
+    height: 600px;
+  }
+
+  .carousel-item img {
+    height: 100%;
+    /* Fill the carousel-item height */
+    width: 100%;
+    /* Ensure full width */
+    object-fit: cover;
+    /* Maintain cover aspect ratio */
+    display: block;
+    /* Remove inline-block gaps */
+  }
+
+  .profile-details {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .section-title {
+    font-size: 35px;
+  }
+
+  .service-icon {
+    width: 100%;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon-details {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .profile-details {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .section-title {
+    font-size: 35px;
+  }
+
+  .contact-info p {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-right: 30px;
+  }
+
+  .contact-info i {
+    margin-right: 10px;
+    color: #555;
+    min-width: 25px;
+    text-align: center;
+  }
+
+  .nav-link:hover {
+    border: none !important;
+  }
+
+  .quote-text {
+    margin: 70px 20px;
+    font-size: 18px;
+  }
+}
+
 @media (max-width: 768px) {
   .carousel-item {
     height: 400px;
