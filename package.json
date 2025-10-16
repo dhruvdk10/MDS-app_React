@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "predeploy": "bun run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "deploy-all": "git add . && git commit -m 'lu' && git push origin main && bun run deploy",
     "lint": "eslint .",
