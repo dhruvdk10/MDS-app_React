@@ -44,7 +44,7 @@ const ThemeToggle = () => {
         style={{
           transform: dark ? "scaleX(-1)" : "none",
           transition: "transform 0.3s ease, color 0.3s ease",
-          color: dark ? "#f5f5f5" : "inherit",
+          color: dark ? "#f5f5f5" : "#333",
         }}
       />
     </button>
