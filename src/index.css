@@ -113,10 +113,6 @@ select:focus {
   filter: invert(1);
 }
 
-.dark-mode #modeToggle:hover {
-  background-color: white;
-}
-
 .dark-mode .navbar-scrolled {
   background: #333c !important;
   /* dark semi-transparent */
@@ -174,12 +170,10 @@ select:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50%;
+  border: none;
+  background: transparent;
   transition: background 0.3s ease;
-}
-
-#modeToggle:hover {
-  background-color: #000000;
+  text-shadow: 8px 8px 8px black;
 }
 
 /* Navbar */
