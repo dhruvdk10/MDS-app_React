@@ -178,7 +178,6 @@ select:focus {
 /* Navbar */
 .img_display {
   position: relative;
-  height: auto;
   overflow: hidden;
 }
 
@@ -213,13 +212,13 @@ img {
 }
 
 .carousel-item {
-  height: 1000px;
+  height: 100vh;
 }
 
 
-.carousel-item.dimmed img {
-  opacity: 0.4;
-  transition: opacity 0.3s ease;
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
 }
 
 .carousel-control-prev-icon,
@@ -292,7 +291,6 @@ img {
   margin: 50px auto;
   background-color: #ffffff77;
   padding: 20px 40px;
-  ;
   /* ensures it shows above carousel images */
   text-align: center;
 }
@@ -588,20 +586,6 @@ select:focus {
 /* Responsive Design */
 
 @media (min-width: 1024px) and (max-width: 1440px) {
-  .carousel-item {
-    height: 800px;
-  }
-
-  .carousel-item img {
-    height: 100%;
-    /* Fill the carousel-item height */
-    width: 100%;
-    /* Ensure full width */
-    object-fit: cover;
-    /* Maintain cover aspect ratio */
-    display: block;
-    /* Remove inline-block gaps */
-  }
 
   .profile-details {
     padding-left: 15px;
@@ -609,7 +593,12 @@ select:focus {
   }
 
   .section-title {
-    font-size: 38px;
+    font-size: 36px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    top: 25px;
   }
 
   .service-icon {
@@ -658,21 +647,8 @@ select:focus {
     font-size: 19px;
   }
 }
-@media (min-width: 768px) and (max-width: 1024px) {
-  .carousel-item {
-    height: 600px;
-  }
 
-  .carousel-item img {
-    height: 100%;
-    /* Fill the carousel-item height */
-    width: 100%;
-    /* Ensure full width */
-    object-fit: cover;
-    /* Maintain cover aspect ratio */
-    display: block;
-    /* Remove inline-block gaps */
-  }
+@media (min-width: 768px) and (max-width: 1024px) {
 
   .profile-details {
     padding-left: 15px;
@@ -680,7 +656,12 @@ select:focus {
   }
 
   .section-title {
-    font-size: 35px;
+    font-size: 32px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    top: 35px;
   }
 
   .service-icon {
@@ -731,21 +712,6 @@ select:focus {
 }
 
 @media (max-width: 768px) {
-  .carousel-item {
-    height: 400px;
-    /* Set carousel item height */
-  }
-
-  .carousel-item img {
-    height: 100%;
-    /* Fill the carousel-item height */
-    width: 100%;
-    /* Ensure full width */
-    object-fit: cover;
-    /* Maintain cover aspect ratio */
-    display: block;
-    /* Remove inline-block gaps */
-  }
 
   .profile-details {
     padding-left: 15px;
@@ -754,6 +720,11 @@ select:focus {
 
   .section-title {
     font-size: 30px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    top: 15px;
   }
 
   .service-icon {
