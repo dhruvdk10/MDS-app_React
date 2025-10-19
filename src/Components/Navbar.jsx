@@ -23,7 +23,7 @@ const Navbar = () => {
               alt="Logo"
               style={{ height: "80px", width: "80px" }}
             />
-            <p style={{ marginTop: "20px", lineHeight: 0.8, fontWeight: "bold", color: "#333" }}>
+            <p style={{ marginTop: "22.5px", lineHeight: 0.8, fontWeight: "bold", color: "#333" }}>
               <span style={{ fontSize: "large", letterSpacing: "1.5px" }}>MANCHITRA</span><br />
               <span style={{ fontSize: "small", letterSpacing: "1px", marginLeft: "5px" }}>DESIGN STUDIO</span>
             </p>
