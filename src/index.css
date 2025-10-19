@@ -595,12 +595,7 @@ select:focus {
   .section-title {
     font-size: 36px;
   }
-
-  .carousel-control-prev,
-  .carousel-control-next {
-    top: 25px;
-  }
-
+  
   .service-icon {
     width: 100%;
     margin: 15px 0;
@@ -659,11 +654,6 @@ select:focus {
     font-size: 32px;
   }
 
-  .carousel-control-prev,
-  .carousel-control-next {
-    top: 35px;
-  }
-
   .service-icon {
     width: 100%;
     margin: 15px 0;
@@ -720,11 +710,6 @@ select:focus {
 
   .section-title {
     font-size: 30px;
-  }
-
-  .carousel-control-prev,
-  .carousel-control-next {
-    top: 15px;
   }
 
   .service-icon {
