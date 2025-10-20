@@ -4,7 +4,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 
 const Footer = () => {
   return (
-    <footer className="w-100 pt-5" style={{ backgroundColor: "#ccc" }}>
+    <footer className="w-100 pt-5" style={{ backgroundColor: "#ddd" }}>
       <div className="container">
         <div className="row g-4 text-center justify-content-center mx-0">
           <div className="col-6 col-md-3">
