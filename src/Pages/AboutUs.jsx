@@ -55,7 +55,7 @@ const AboutUs = () => {
               <img src={aboutImage} className="img-fluid" style={{ borderRadius: "6px" }} alt="About Us Image" />
             </div>
             <div className="col-lg-6 col-md-12 about-content">
-              <h2>ABOUT US</h2>
+              <h2>OVERVIEW</h2>
               <hr className="mb-3" style={{ width: "100%", margin: "auto", height: "1px", color: "#000" }} />
               {aboutText.map((p, idx) => <p key={idx}>{p}</p>)}
             </div>

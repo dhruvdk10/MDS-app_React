@@ -76,7 +76,7 @@ select:focus {
 }
 
 .dark-mode .card {
-  background-color: #000 !important;
+  background-color: #121212;
 }
 
 .dark-mode .services {
@@ -188,11 +188,11 @@ select:focus {
 }
 
 .carousel-control-prev {
-  left: 0px;
+  left: 5px;
 }
 
 .carousel-control-next {
-  right: 0px;
+  right: 5px;
 }
 
 .container-fluid {
@@ -504,7 +504,7 @@ img {
 
 .btn-contact,
 .btn-contact.active {
-  background-color: #dfc3bfb1;
+  background-color: #DFC3BF;
   font-weight: 500;
   border-radius: 8px;
   padding: 5px 15px;
@@ -514,9 +514,8 @@ img {
 
 .btn-contact:hover,
 .btn-contact.active:hover {
-  background-color: #DFC3BF;
+  background-color: #dfc3bfb1;
   font-weight: 600;
-  transform: scale(1.01);
   transition: transform 0.3s ease;
 }
 
@@ -595,7 +594,7 @@ select:focus {
   .section-title {
     font-size: 36px;
   }
-  
+
   .service-icon {
     width: 100%;
     margin: 15px 0;
@@ -616,6 +615,14 @@ select:focus {
 
   .section-title {
     font-size: 38px;
+  }
+
+  .carousel-control-prev {
+    left: 10px;
+  }
+
+  .carousel-control-next {
+    right: 10px;
   }
 
   .contact-info p {
@@ -710,6 +717,14 @@ select:focus {
 
   .section-title {
     font-size: 30px;
+  }
+
+   .carousel-control-prev {
+    left: 15px;
+  }
+
+  .carousel-control-next {
+    right: 15px;
   }
 
   .service-icon {

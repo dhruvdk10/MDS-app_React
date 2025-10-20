@@ -46,7 +46,7 @@ const Navbar = () => {
               <NavLink
                 to="/"
                 className={({ isActive }) =>
-                  isActive && windowWidth > 768 ? "nav-link active mx-1" : "nav-link mx-1"
+                  isActive && windowWidth > 991 ? "nav-link active ms-3" : "nav-link ms-3"
                 }
               >
                 Home
@@ -56,7 +56,7 @@ const Navbar = () => {
               <NavLink
                 to="/AboutUs"
                 className={({ isActive }) =>
-                  isActive && windowWidth > 768 ? "nav-link active mx-1" : "nav-link mx-1"
+                  isActive && windowWidth > 991 ? "nav-link active ms-3" : "nav-link ms-3"
                 }
               >
                 About Us
@@ -66,7 +66,7 @@ const Navbar = () => {
               <NavLink
                 to="/Services"
                 className={({ isActive }) =>
-                  isActive && windowWidth > 768 ? "nav-link active mx-1" : "nav-link mx-1"
+                  isActive && windowWidth > 991 ? "nav-link active ms-3" : "nav-link ms-3"
                 }
               >
                 Our Services
@@ -77,8 +77,8 @@ const Navbar = () => {
                 to="/Projects"
                 className={({ isActive }) =>
                   (isActive || window.location.hash.includes("/Projects")) && windowWidth > 768
-                    ? "nav-link dropdown-toggle active mx-1"
-                    : "nav-link dropdown-toggle mx-1"
+                    ? "nav-link dropdown-toggle active ms-3 me-2"
+                    : "nav-link dropdown-toggle ms-3 me-2"
                 }
                 role="button"
                 data-bs-toggle="dropdown"
@@ -98,7 +98,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </li>
-            <li className="nav-item ms-1 me-2">
+            <li className="nav-item ms-2 me-3 my-2">
               <NavLink className="btn btn-contact" to="/ContactUs">Contact us</NavLink>
             </li>
           </ul>
