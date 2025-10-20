@@ -16,14 +16,15 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg fixed-top d-flex" id="mainNavbar">
       <div className="container-fluid">
-        <div className="logo">
+        <div class="d-flex align-items-center">
           <NavLink className="navbar-brand ms-2 d-flex" to="/">
             <img
               src="mds_logo_hd.png"
+              class="logo"
               alt="Logo"
               style={{ height: "80px", width: "80px" }}
             />
-            <p style={{ marginTop: "22.5px", lineHeight: 0.8, fontWeight: "bold", color: "#333" }}>
+            <p class="me-2" style={{ marginTop: "22.5px", lineHeight: 0.8, fontWeight: "bold", color: "#333" }}>
               <span style={{ fontSize: "large", letterSpacing: "1.5px" }}>MANCHITRA</span><br />
               <span style={{ fontSize: "small", letterSpacing: "1px", marginLeft: "5px" }}>DESIGN STUDIO</span>
             </p>

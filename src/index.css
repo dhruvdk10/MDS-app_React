@@ -75,6 +75,10 @@ select:focus {
   border-bottom: 2px solid white;
 }
 
+.dark-mode .badge-icon i {
+  color: #DFC3BF;
+}
+
 .dark-mode .card {
   background-color: #121212;
 }
@@ -148,6 +152,10 @@ select:focus {
   width: 100%;
   margin-bottom: 15px;
   transition: all 0.3s ease;
+}
+
+.contact-info i {
+  color: #DFC3BF;
 }
 
 .dark-mode .contact-card input::placeholder {
@@ -238,9 +246,8 @@ img {
 }
 
 .logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+  filter: brightness(80%) contrast(95%);
+
 }
 
 #mainNavbar {
@@ -305,7 +312,7 @@ img {
 
 .service-icon {
   font-size: 100px;
-  color: #DFC3BF;
+  color: rgb(190, 167, 166);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -411,7 +418,7 @@ img {
   bottom: -6px;
   width: 200px;
   height: 3px;
-  background-color: #DFC3BF;
+  background-color: rgb(190, 167, 166);
   border-radius: 2px;
 }
 
@@ -448,14 +455,14 @@ img {
 }
 
 .contact-card button {
-  background-color: #DFC3BF;
+  background-color: rgb(190, 167, 166);
   color: black;
   border: none;
   border-radius: 8px;
 }
 
 .contact-card button:hover {
-  background-color: #e0ccc9;
+  background-color: #dfc3bfb1;
   color: #000;
   transform: scale(1.01);
   transition: ease-in-out;
@@ -474,14 +481,18 @@ img {
 
 .contact-info i {
   margin-right: 10px;
-  color: #555;
+  color: rgb(190, 167, 166);
   min-width: 25px;
   text-align: center;
 }
 
+.contact-card textarea::placeholder {
+  color: #888;
+}
+
 .map-container {
   margin: 30px auto;
-  height: 500px;
+  height: 400px;
   width: 90%;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   border-radius: 12px;
@@ -501,13 +512,13 @@ img {
 }
 
 .dropdown-menu a:hover {
-  background-color: #DFC3BF;
+  background-color: rgb(190, 167, 166);
   color: black !important;
 }
 
 .btn-contact,
 .btn-contact.active {
-  background-color: #DFC3BF;
+  background-color: rgb(190, 167, 166);
   font-weight: 500;
   border-radius: 8px;
   padding: 5px 15px;
@@ -548,6 +559,10 @@ select:focus {
   text-align: center;
   position: relative;
   z-index: 1;
+}
+
+.badge-icon i {
+  color: rgb(190, 167, 166);
 }
 
 .badge-icon i:hover {
@@ -704,7 +719,6 @@ select:focus {
 
   .contact-info i {
     margin-right: 10px;
-    color: #555;
     min-width: 25px;
     text-align: center;
   }
@@ -774,7 +788,6 @@ select:focus {
 
   .contact-info i {
     margin-right: 10px;
-    color: #555;
     min-width: 25px;
     text-align: center;
   }

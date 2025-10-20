@@ -124,42 +124,38 @@ export const servicespage = [
 export const contactInfo = [
   {
     id: 1,
-    icon: "fa-solid fa-location-dot",
-    color: "#DFC3BF",
-    size: "45px",
+    iconClass: "fa-solid fa-location-dot",
+    iconSize: "45px",
     link: "https://www.google.com/maps/search/271,+Milansar+Apartment,+A1+Block,+Paschim+Vihar,+New+Delhi+-+110063/@28.676962,77.095567,16z?hl=en-GB",
     text: "271, Milansar Appartments, Pashchim Vihar, A1 Block, New Delhi - 110063, India"
   },
   {
     id: 2,
-    icon: "fa-brands fa-whatsapp",
-    color: "#DFC3BF",
-    size: "40px",
+    iconClass: "fa-brands fa-whatsapp",
+    iconSize: "40px",
     link: "https://wa.me/918800844329?text=Hello%2C%20I%20am%20interested%20in%20Manchitra%20Design%20Studio.",
     text: "+91 8700232746 | 8800844329"
   },
   {
     id: 3,
-    icon: "fa-solid fa-envelope",
-    color: "#DFC3BF",
-    size: "35px",
-    link: "https://mail.google.com/mail/?view=cm&fs=1&to=manchitradesignstudio@gmail.com&su=Project%20Inquiry",
+    iconClass: "fa-solid fa-envelope",
+    iconSize: "35px",
+    link: "mailto:manchitradesignstudio@gmail.com",
     text: "manchitradesignstudio@gmail.com"
   },
   {
     id: 4,
-    icon: "fa-brands fa-instagram",
-    color: "#DFC3BF",
-    size: "35px",
+    iconClass: "fa-brands fa-instagram",
+    iconSize: "35px",
     link: "https://www.instagram.com/manchitra.studio/?hl=en",
     text: "@manchitra.studio"
   },
   {
     id: 5,
-    icon: "fa-brands fa-facebook-f",
-    color: "#DFC3BF",
-    size: "35px",
+    iconClass: "fa-brands fa-facebook-f",
+    iconSize: "35px",
     link: "https://www.facebook.com/Manchitra.studio",
     text: "Manchitra Design Studio"
   }
 ];
+

@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
           <div className="col-6 col-md-3 text-md-start text-center">
             <a href="mds.html">
-              <img src="mds_logo_hd.png" alt="Logo" className="mb-3" style={{ height: "50px", width: "50px", objectFit: "cover", cursor: "pointer", margin: "auto" }} />
+              <img src="mds_logo_hd.png" alt="Logo" className="logo mb-3" style={{ height: "50px", width: "50px", objectFit: "cover", cursor: "pointer", margin: "auto" }} />
             </a>
             <div className="social-icons">
               <div className="footer-links d-flex justify-content-center gap-4 fs-5">

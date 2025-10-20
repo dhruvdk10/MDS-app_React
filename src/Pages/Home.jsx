@@ -73,7 +73,7 @@ const Home = () => {
           <div className="badge-icons row text-center">
             {badges.map((item, index) => (
               <div key={index} className="badge-icon col-md-3 col-6 mb-4" data-aos="fade-up">
-                <i className={`fa-solid ${item.icon} mb-4`} style={{ fontSize: "60px", color: "#DFC3BF" }}></i>
+                <i className={`fa-solid ${item.icon} mb-4`} style={{ fontSize: "60px"}}></i>
                 <h6 className="fs-5 fw-bold">{item.title}</h6>
               </div>
             ))}
