@@ -415,6 +415,7 @@ img {
   border-radius: 2px;
 }
 
+
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -578,6 +579,10 @@ select:focus {
   transition: transform 0.5s ease;
 }
 
+.footer-bottom {
+  font-size: small;
+}
+
 .social-icons i:hover {
   transform: scale(1.2);
   transition: transform 0.5s ease;
@@ -650,6 +655,10 @@ select:focus {
     margin: 80px 20px;
     font-size: 19px;
   }
+
+  .footer-bottom {
+    font-size: small;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -708,6 +717,10 @@ select:focus {
     margin: 70px 20px;
     font-size: 18px;
   }
+
+  .footer-bottom {
+    font-size: small;
+  }
 }
 
 @media (max-width: 768px) {
@@ -721,7 +734,7 @@ select:focus {
     font-size: 30px;
   }
 
-   .carousel-control-prev {
+  .carousel-control-prev {
     left: 15px;
   }
 
@@ -773,5 +786,9 @@ select:focus {
   .quote-text {
     margin: 50px 20px;
     font-size: 16px;
+  }
+
+  .footer-bottom {
+    font-size: small;
   }
 }
