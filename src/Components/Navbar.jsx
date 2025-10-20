@@ -69,7 +69,7 @@ const Navbar = () => {
                   isActive && windowWidth > 991 ? "nav-link active ms-3" : "nav-link ms-3"
                 }
               >
-                Our Services
+                Services
               </NavLink>
             </li>
             <li className="nav-item dropdown">
@@ -77,8 +77,8 @@ const Navbar = () => {
                 to="/Projects"
                 className={({ isActive }) =>
                   (isActive || window.location.hash.includes("/Projects")) && windowWidth > 768
-                    ? "nav-link dropdown-toggle active ms-3 me-2"
-                    : "nav-link dropdown-toggle ms-3 me-2"
+                    ? "nav-link dropdown-toggle active ms-3"
+                    : "nav-link dropdown-toggle ms-3"
                 }
                 role="button"
                 data-bs-toggle="dropdown"

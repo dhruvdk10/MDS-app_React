@@ -299,6 +299,7 @@ img {
   width: 100%;
   margin: 50px auto;
   padding: 30px 15px;
+  letter-spacing: 1.5px;
   background-color: whitesmoke;
 }
 
@@ -348,6 +349,7 @@ img {
 
 .section-title {
   text-align: center;
+  letter-spacing: 3px;
   font-weight: bold;
   font-size: 40px;
 }

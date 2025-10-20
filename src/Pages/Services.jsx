@@ -33,7 +33,7 @@ const Services = () => {
           </button>
 
           <div className="page-container">
-            <h2 className="section-title">OUR SERVICES</h2>
+            <h2 className="section-title">SERVICES</h2>
           </div>
         </div>
       </section>
