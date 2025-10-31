@@ -11,7 +11,6 @@ import AboutUs from "./Pages/AboutUs";
 import Services from "./Pages/Services";
 import ContactUs from "./Pages/ContactUs";
 import Projects from "./Pages/Projects";
-import WhatsAppButton from "./Components/WhatsAppButton";
 
 const App = () => {
   React.useEffect(() => {
