@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
+import WhatsAppButton from "./Components/WhatsAppButton";
 import Footer from "./Components/Footer";
 import "./index.css";
 import AOS from "aos";
@@ -10,6 +11,7 @@ import AboutUs from "./Pages/AboutUs";
 import Services from "./Pages/Services";
 import ContactUs from "./Pages/ContactUs";
 import Projects from "./Pages/Projects";
+import WhatsAppButton from "./Components/WhatsAppButton";
 
 const App = () => {
   React.useEffect(() => {
@@ -28,6 +30,7 @@ const App = () => {
         <Route path="/Projects/Residential" element={<Projects type="Residential" />} />
         <Route path="/Projects/Commercial" element={<Projects type="Commercial" />} />
       </Routes>
+      <WhatsAppButton/>
       <Footer />
     </HashRouter>
   );
